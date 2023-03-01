@@ -26,16 +26,22 @@
 }
 
 .lista__menu {
-    background-color: var(--branco);
     display: none;
     position: absolute;
     top: 100%;
-    padding: 1em;
+    width: 60vw;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 .container__botao:checked ~ .lista__menu {
     display: block;
 }
+
+.lista__menu-item, .lista__menu-titulo {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
 
 .lista__menu-titulo {
     color: var(--cor-menu-titulo);
@@ -44,8 +50,13 @@
 }
 
 .lista__menu-link {
-    color: var(--cor-de-fundo-secundaria);
+    background: var(--cor-de-fundo-secundaria);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     font-weight: var(--fonte-regular);
     font-size: 1rem;
     text-decoration: none;
+    text-transform: uppercase;
 }
+
