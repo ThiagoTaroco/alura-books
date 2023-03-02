@@ -2,11 +2,15 @@
 @import url(header.css);
 @import url(banner.css);
 @import url(carrossel.css);
+@import url(topicos.css);
+@import url(contato.css);
+
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF; 
     --cor-de-fundo-secundaria: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --cor-menu-titulo: #EB9B00;
+    --cor-rodape: #F9F9F9;
     --azul: #002F52;
     --preto: #000000;
 
@@ -21,4 +25,14 @@ body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 1rem;
+}
+
+.rodape {
+    background: var(--cor-rodape);
+    padding: 1em;
+}
+
+.rodape__titulo {
+    color: var(--preto);
+    font-weight: var(--fonte-regular);
 }
