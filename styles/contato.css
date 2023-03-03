@@ -34,6 +34,7 @@
     font-family: var(--fonte-principal);
     font-size: 1rem;
     font-weight: var(--fonte-regular);
-    text-align: center;
     background-position: 1em;
+    padding-left: 3em;
+    color: var(--azul);
 }
