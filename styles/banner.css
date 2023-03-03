@@ -13,7 +13,7 @@
 .banner__texto {
     font-size: 1rem;
     font-weight: var(--fonte-medium);
-    margin: 1em 0 1.5em 0;
+    margin: 1em 0 2em 0;
 }
 
 .banner__pesquisa {
@@ -33,4 +33,27 @@
     color: var(--branco);
     background: url("../assets/Pesquisa.svg") no-repeat;
     background-position: 1em;
+}
+
+@media screen and (min-width:1024px) {
+    
+    .banner {
+        padding: 5em 2em;
+    }
+
+    .banner__titulo {
+        font-size: 2.25rem;
+    }
+
+    .banner__pesquisa {
+        padding: 1.5em;
+        padding-left: 3em;
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        font-size: 1rem;
+        background-position: 3em;
+    }
+
 }

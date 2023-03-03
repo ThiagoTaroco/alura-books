@@ -81,3 +81,23 @@
     text-align: center;
     padding: 1em 2.25em;
 }
+
+@media screen and (min-width:1024px) {
+
+    .carrossel__titulo {
+        font-size: 1.625rem;
+        padding: 2em 0 1em 0;
+    }
+
+    .swiper {
+        width: 90%;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+}
