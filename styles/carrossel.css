@@ -89,15 +89,21 @@
         padding: 2em 0 1em 0;
     }
 
-    .swiper {
-        width: 90%;
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
     }
 
-    .swiper-slide img {
-        width: 100%;
+    .swiper {
+        width: 60%;
     }
 
     .swiper-button-prev, .swiper-button-next {
-        display: none;
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 3em auto;
     }
 }

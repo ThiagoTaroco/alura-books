@@ -38,3 +38,27 @@
     padding-left: 3em;
     color: var(--azul);
 }
+
+@media screen and (min-width:1024px) {
+    
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3em;
+    }
+
+    .container__contato{
+        width: 25%;
+        margin-right: 4em;
+    }
+
+    .contato__titulo {
+        font-size: 1.5rem;
+        padding-bottom: 0.3em;
+    }
+
+    .contato__email {
+        width:30%;
+    }
+}

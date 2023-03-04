@@ -30,3 +30,16 @@
     color: var(--branco);
     text-decoration: none;
 }
+
+@media screen and (min-width:1024px) {
+    
+    .topicos__titulo {
+        font-size: 1.5rem;
+        padding: 1em 0 1.5em 0;
+    }
+
+    .topicos__link {
+        padding: 1.35em;
+        font-size: 1.5rem;
+    }
+}
