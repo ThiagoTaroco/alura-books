@@ -82,6 +82,10 @@
     padding: 1em 2.25em;
 }
 
+.botao-saiba:active {
+    background: var(--azul);
+}
+
 @media screen and (min-width:1024px) {
 
     .carrossel__titulo {
