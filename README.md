@@ -1,6 +1,6 @@
 # Alura Books
 >
-Olá, esse é um projeto com objetivo de praticar html e css.
+Olá, esse é um projeto com objetivo de praticar responsividade, html e css.
 
 ![image](https://user-images.githubusercontent.com/111652770/223888262-8fccc770-45a9-4ef7-bc41-4b355624d36f.png)
 
